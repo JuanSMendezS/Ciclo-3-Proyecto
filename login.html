@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style/stylelogin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+</head>
+
+<body>
+    <div class="login-box">
+        <img class="avatar" src="./img/Imagen_header.jpg" alt="">
+        <h1>Registro de Usuario</h1>
+        <form action="">
+            <label for="usuario">Usuario o Correo</label>
+            <input type="text" name="nombre" id="usuario" placeholder="Usuario" required>            
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" placeholder="**********" required>
+            <!-- -->
+            <!--<button onclick="iniciarSesion()">Iniciar sesión</button>-->
+            <input onclick="iniciarSesion()" type="submit" value="Iniciar sesion">
+            <a href="index.html">¿No tiene usuario creado?</a>                            
+        </form>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

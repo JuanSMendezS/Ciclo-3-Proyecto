@@ -9,8 +9,8 @@ body {
 }
 
 .login-box{
-    width: 320px;
-    height: 420px;
+    width: 380px;
+    height: 540px;
     background: #000;
     color: white;
     top: 50%;
@@ -65,6 +65,18 @@ body h1 {
 }
 
 .login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff8737 ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.login-box button{
+    width: 100%;
+    margin-bottom: 20px;
     border: none;
     outline: none;
     height: 40px;
