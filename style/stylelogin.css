@@ -74,6 +74,18 @@ body h1 {
     font-size: 18px;
 }
 
+.login-box button{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ff8737 ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
 .login-box a {
     text-decoration: none;
     font-size: 12px;
