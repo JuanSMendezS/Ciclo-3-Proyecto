@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,32 @@
     <title>Login Aeropuerto</title>
     <link rel="stylesheet" href="/style/stylelogin.css">
 </head>
+
 <body>
-  
+
     <main>
-        
+
         <div class="login-box">
             <img class="avatar" src="./img/Imagen_header.jpg" alt="">
-            <h1>Login here</h1>
+            <h1>Registro de Usuario</h1>
             <form action="">
-                <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" id="usuario" placeholder="usuario">
+                <label for="usuario">Ingrese nombre y apellido</label>
+                <input type="text" name="nombre" id="usuario" placeholder="Usuario">
+                <label for="correo">Ingrese correo electronico</label>
+                <input type="text" name="correo" id="corro" placeholder="Correo Electronico">
                 <label for="pass">Contraseña</label>
                 <input type="password" name="pass" id="pass" placeholder="**********">
-                <input onclick="iniciarsesion()" type="submit" value="Iniciar sesion">
-                <a href="">¿Ha olvidado su contraseña?</a>                
-                <br>
-                <a href="">¿No tienes una cuenta?</a>
-                <a href="main.html"> Pasar </a>
+                <label for="pass">Confirme la contraseña</label>
+                <input type="password" name="pass" id="pass" placeholder="**********">
+                <input type="submit" value="Registrar" class="button">
+                <!-- -->
+                <a href="login.html">¿Ya tiene usuario creado?</a>                            
             </form>
         </div>
-        
-       
+
+
     </main>
     <script src="./main.js"></script>
 </body>
+
 </html>
