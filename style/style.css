@@ -2,3 +2,14 @@
 
     background-image: url(./Imagen_header.jpg);
 }
+
+.iniciooregistro .irainiciosesion .registrarse {
+    text-decoration: none;
+    text-align: end;
+
+}
+
+div .iniciooregistro {
+    position: relative;
+    right: 10px;
+}
