@@ -1,6 +1,6 @@
 function iniciarSesion() {
     alert("Será redireccionado")
-    location.href="/main.html"
+    location.href="/index.html"
 }
 
 function pantallaPiloto(){
